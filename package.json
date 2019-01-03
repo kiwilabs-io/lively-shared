@@ -1,0 +1,10 @@
+{
+  "name": "@lively/shared",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
