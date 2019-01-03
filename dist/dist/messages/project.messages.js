@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const actions = {
     get: 'project:get',
     getAll: 'project:getAll',
@@ -5,14 +7,13 @@ const actions = {
     join: 'project:join',
     leave: 'project:leave',
 };
-
 const events = {
     created: 'project:created',
     joined: 'project:joined',
     left: 'project:left',
 };
-
-export const projectMessages = {
+exports.projectMessages = {
     actions,
     events,
-}
+};
+//# sourceMappingURL=project.messages.js.map
